@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/eciis/webchat#readme",
   "dependencies": {
+    "ip": "^1.1.5",
     "ws": "^6.1.0"
   }
 }
