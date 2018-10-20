@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const ip = require('ip');
 const vacwo = require('./vacwo-server');
 
 const app = express();
@@ -20,5 +19,5 @@ app.get('/chat', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Listening on http://${ip.address()}:${PORT}`);
+  console.log(`Listening on http://localhost:${PORT}`);
 });
