@@ -1,35 +1,9 @@
 {
-  "name": "webchat",
-  "version": "0.1.0",
-  "description": "Simple webchat implementation with webRTC and websocket",
-  "main": "main.js",
-  "scripts": {
-    "dev": "nodemon main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eciis/webchat.git"
-  },
-  "keywords": [
-    "webrtc",
-    "webchat",
-    "peer-to-peer",
-    "video"
-  ],
-  "author": "Pedro Espindula, Bruno Siqueira",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eciis/webchat/issues"
-  },
-  "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "express": "^4.16.3",
-    "nodemon": "^1.18.4"
-  },
-  "homepage": "https://github.com/eciis/webchat#readme",
+  "name": "vacwo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
-    "ws": "^6.1.0"
+    "ws": "^6.1.2"
   }
 }
