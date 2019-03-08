@@ -107,8 +107,9 @@ class Server {
   }
 }
 
-const port = 8090;
-new Server(8090);
-console.log(`Server listening on ${port}`)
+const port = process.env.PORT || 8090;
+new Server(port);
+console.log(`Server listening on ${port}`);
+
 
 module.exports.Server = Server;
